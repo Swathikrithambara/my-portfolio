@@ -1,0 +1,41 @@
+@import "tailwindcss";
+body{
+    background-color: #FFEFBA;
+     font-family: 'Poppins', sans-serif;
+}
+[data-theme="dark"] {
+  background-color: #121212;
+  color: white;
+}
+
+[data-theme="light"] {
+  background-color: white;
+  color: black;
+}
+/* Lucide icons default (light mode) */
+/* PNG icons default (light mode) */
+[data-theme="light"] .icon-img {
+  filter: none;
+}
+
+/* PNG icons turn white in dark mode */
+[data-theme="dark"] .icon-img {
+  filter: invert(1) brightness(2);
+}
+
+body[data-theme="light"] .contact-heading {
+  color: black;
+}
+
+body[data-theme="dark"] .contact-heading {
+  color: white;
+}
+body[data-theme="light"] .aboutme {
+  color: black;
+}
+body[data-theme="light"] .projects {
+  color: black;
+}
+body[data-theme="light"] .skills {
+  color: black;
+}
