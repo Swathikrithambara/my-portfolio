@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import project1 from "../assets/project1.png"
 import project2 from "../assets/project2.png"
+import project3 from "../assets/crypto.png"
 
 
 export default function Projects() {
@@ -87,7 +88,7 @@ export default function Projects() {
           {/* Project Card */}
           <div className="group  backdrop-blur-lg rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all duration-300">
             <div className="h-60 rounded-xl bg-gradient-to-br from-[#fd746c] to-[#C02425] mb-5 flex items-center justify-center">
-              <span className="text-white font-medium">coming soon</span>
+             <img src={project3} alt=""/>
             </div>
              <a
   href="https://github.com/swathikrithambara "
