@@ -4,6 +4,7 @@ import project1 from "../assets/project1.png"
 import project2 from "../assets/project2.png"
 import project3 from "../assets/crypto.png"
 import project4 from '../assets/Travwell.png'
+import project5 from '../assets/projectecom.png'
 
 
 export default function Projects() {
@@ -124,7 +125,20 @@ export default function Projects() {
 
           {/* Project Card */}
           
-
+  <div className="group  backdrop-blur-lg rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all duration-300">
+            <div className="h-60 rounded-xl bg-gradient-to-br from-[#000000] to-[#f11712]/60 mb-5 flex items-center justify-center">
+              <img src={project5} alt="" />
+            </div>
+            <a
+              href="https://github.com/Swathikrithambara/Ecommerce"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-sm font-medium text-[#dc281e] hover:text-[#f09819] transition"
+            >
+              View Project
+              <span className="transition-transform group-hover:translate-x-1">→</span>
+            </a>
+          </div>
 
 
 
