@@ -5,6 +5,7 @@ import project2 from "../assets/project2.png"
 import project3 from "../assets/crypto.png"
 import project4 from '../assets/Travwell.png'
 import project5 from '../assets/projectecom.png'
+import project6 from '../assets/contact-manager.png'
 
 
 export default function Projects() {
@@ -28,7 +29,7 @@ export default function Projects() {
               transition={{ type: "spring", stiffness: 250 }}
               className="text-2xl font-bold projects dark:text-white"
             >
-              projects
+              Projects
             </motion.h3>
 
             {/* Underline animation */}
@@ -45,7 +46,7 @@ export default function Projects() {
             />
           </motion.div>
           <p className="mt-3 text-[#71706E]">
-            A few things I’ve built with passion and precision.
+            A few things I've built with passion and precision.
           </p>
         </div>
 
@@ -57,8 +58,12 @@ export default function Projects() {
             <div className="h-60 rounded-xl bg-gradient-to-br from-[#000000] to-[#f11712]/60 mb-5 flex items-center justify-center">
               <img src={project1} alt="" />
             </div>
-            <a
-              href="https://interior-design-beryl-theta.vercel.app/"
+            <div className="flex flex-wrap gap-2 mb-3">
+              <span className="text-xs px-2 py-1 rounded-full font-medium bg-blue-100 text-blue-700">ReactJS</span>
+              <span className="text-xs px-2 py-1 rounded-full font-medium bg-cyan-100 text-cyan-700">TailwindCSS</span>
+            </div>
+            
+            <a href="https://interior-design-beryl-theta.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm font-medium text-[#dc281e] hover:text-[#f09819] transition"
@@ -73,8 +78,13 @@ export default function Projects() {
             <div className="h-60 rounded-xl bg-gradient-to-br from-[#000000] to-[#434343]/60 mb-5 flex items-center justify-center">
               <img src={project2} alt="" />
             </div>
-            <a
-              href="https://github.com/swathikrithambara"
+            <div className="flex flex-wrap gap-2 mb-3">
+              <span className="text-xs px-2 py-1 rounded-full font-medium bg-blue-100 text-blue-700">ReactJS</span>
+              <span className="text-xs px-2 py-1 rounded-full font-medium bg-cyan-100 text-cyan-700">TailwindCSS</span>
+              <span className="text-xs px-2 py-1 rounded-full font-medium bg-orange-100 text-orange-700">Firebase</span>
+            </div>
+            
+            <a href="https://github.com/swathikrithambara"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm font-medium text-[#dc281e] hover:text-[#f09819] transition"
@@ -83,17 +93,19 @@ export default function Projects() {
               <span className="transition-transform group-hover:translate-x-1">→</span>
             </a>
           </div>
-
-
-
 
           {/* Project Card */}
           <div className="group  backdrop-blur-lg rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all duration-300">
             <div className="h-60 rounded-xl bg-gradient-to-br from-[#fd746c] to-[#C02425] mb-5 flex items-center justify-center">
               <img src={project3} alt="" />
             </div>
-            <a
-              href="https://github.com/swathikrithambara "
+            <div className="flex flex-wrap gap-2 mb-3">
+              <span className="text-xs px-2 py-1 rounded-full font-medium bg-blue-100 text-blue-700">ReactJS</span>
+              <span className="text-xs px-2 py-1 rounded-full font-medium bg-cyan-100 text-cyan-700">TailwindCSS</span>
+              <span className="text-xs px-2 py-1 rounded-full font-medium bg-green-100 text-green-700">CoinGecko API</span>
+            </div>
+            
+            <a href="https://github.com/swathikrithambara "
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm font-medium text-[#dc281e] hover:text-[#f09819] transition"
@@ -101,19 +113,22 @@ export default function Projects() {
               View Project
               <span className="transition-transform group-hover:translate-x-1">→</span>
             </a>
-
           </div>
 
         </div>
-         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
           {/* Project Card */}
           <div className="group  backdrop-blur-lg rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all duration-300">
             <div className="h-60 rounded-xl bg-gradient-to-br from-[#000000] to-[#f11712]/60 mb-5 flex items-center justify-center">
               <img src={project4} alt="" />
             </div>
-            <a
-              href="https://github.com/Swathikrithambara/Travwell"
+            <div className="flex flex-wrap gap-2 mb-3">
+              <span className="text-xs px-2 py-1 rounded-full font-medium bg-red-100 text-red-700">HTML</span>
+              <span className="text-xs px-2 py-1 rounded-full font-medium bg-purple-100 text-purple-700">CSS</span>
+            </div>
+            
+           <a href="https://github.com/Swathikrithambara/Travwell"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm font-medium text-[#dc281e] hover:text-[#f09819] transition"
@@ -124,13 +139,16 @@ export default function Projects() {
           </div>
 
           {/* Project Card */}
-          
-  <div className="group  backdrop-blur-lg rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all duration-300">
+          <div className="group  backdrop-blur-lg rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all duration-300">
             <div className="h-60 rounded-xl bg-gradient-to-br from-[#000000] to-[#f11712]/60 mb-5 flex items-center justify-center">
               <img src={project5} alt="" />
             </div>
-            <a
-              href="https://github.com/Swathikrithambara/Ecommerce"
+            <div className="flex flex-wrap gap-2 mb-3">
+              <span className="text-xs px-2 py-1 rounded-full font-medium bg-red-100 text-red-700">HTML</span>
+              <span className="text-xs px-2 py-1 rounded-full font-medium bg-purple-100 text-purple-700">CSS</span>
+            </div>
+            
+             <a href="https://github.com/Swathikrithambara/Ecommerce"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm font-medium text-[#dc281e] hover:text-[#f09819] transition"
@@ -140,10 +158,27 @@ export default function Projects() {
             </a>
           </div>
 
-
-
-          {/* Project Card */}
-          
+          {/* Contact Manager */}
+          <div className="group  backdrop-blur-lg rounded-2xl shadow-lg p-6 hover:shadow-xl transition-all duration-300">
+            <div className="h-60 rounded-xl bg-gradient-to-br from-[#283048] to-[#859398] mb-5 flex items-center justify-center">
+             <img src={project6} alt="" />
+            </div>
+            <div className="flex flex-wrap gap-2 mb-3">
+              <span className="text-xs px-2 py-1 rounded-full font-medium bg-gray-100 text-gray-700">Next.js</span>
+              <span className="text-xs px-2 py-1 rounded-full font-medium bg-blue-100 text-blue-800">TypeScript</span>
+              <span className="text-xs px-2 py-1 rounded-full font-medium bg-cyan-100 text-cyan-700">TailwindCSS</span>
+              <span className="text-xs px-2 py-1 rounded-full font-medium bg-yellow-100 text-yellow-700">JSON Server</span>
+            </div>
+            
+              <a href="https://contact-manager-rho-two.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-sm font-medium text-[#dc281e] hover:text-[#f09819] transition"
+            >
+              View Project
+              <span className="transition-transform group-hover:translate-x-1">→</span>
+            </a>
+          </div>
 
         </div>
       </div>
